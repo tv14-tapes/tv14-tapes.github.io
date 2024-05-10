@@ -1,0 +1,221 @@
+body {
+    /* background-color: rgb(188, 81, 81); */
+    background-color: rgb(45, 65, 86);
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'AkkuratLLTrialWeb-Regular';
+    color: rgb(191, 235, 126);
+    text-align: left;
+    font-size: 100px;
+    line-height: 5px;
+  }
+
+  h2 {
+    font-family: 'AkkuratLLTrialWeb-Regular';
+    color: rgb(191, 235, 126);
+    text-align: left;
+    font-size: 50px;
+    line-height: 5px;
+  }
+
+  h3 {
+    font-family: 'AkkuratLLTrialWeb-Regular';
+    color: rgb(199, 192, 192);
+    text-align: left;
+    font-size: 25px;
+    line-height: 5px;
+  }
+
+  h4 {
+    font-family: 'AkkuratLLTrialWeb-Regular';
+    color: rgb(191, 235, 126);
+    text-align: left;
+    font-size: 25px;
+    line-height: 5px;
+  }
+
+  a {
+    font-family: 'AkkuratLLTrialWeb-Regular';
+    color: rgb(191, 235, 126);
+    text-align: left;
+    font-size: 30px;
+    /* font-style:italic; */
+    text-decoration: none;
+  }
+
+  p {
+    font-family: 'AkkuratLLTrialWeb-Regular';
+    font-size: 20px;
+  }
+
+  br {
+    display: block;
+    margin: 10px 0;
+ }
+
+
+@font-face {
+  font-family: "AkkuratLLTrialWeb-Thin";
+  src: url("AkkuratLLTrialWeb-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AkkuratLLTrialWeb-ThinItalic";
+  src: url("AkkuratLLTrialWeb-ThinItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AkkuratLLTrialWeb-Light";
+  src: url("AkkuratLLTrialWeb-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AkkuratLLTrialWeb-LightItalic";
+  src: url("AkkuratLLTrialWeb-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AkkuratLLTrialWeb-Regular";
+  src: url("AkkuratLLTrialWeb-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AkkuratLLTrialWeb-Italic";
+  src: url("AkkuratLLTrialWeb-Italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AkkuratLLTrialWeb-Bold";
+  src: url("AkkuratLLTrialWeb-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AkkuratLLTrialWeb-BoldItalic";
+  src: url("AkkuratLLTrialWeb-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AkkuratLLTrialWeb-Black";
+  src: url("AkkuratLLTrialWeb-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "AkkuratLLTrialWeb-BlackItalic";
+  src: url("AkkuratLLTrialWeb-BlackItalic.woff2") format("woff2");
+}
+
+/* 
+  #background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  } */
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+
+  .div1 {
+    position: absolute;
+    left: calc(150px);
+    top: calc(140px);
+    /* width: calc(100% - 300px); */
+    /* padding: 5px; */
+  }
+
+  .div2 {
+    position: absolute;
+    left: calc(140px);
+    top: calc(60px);
+    /* width: calc(100% - 300px); */
+    /* padding: 5px; */
+  }
+
+  .div3 {
+    position: absolute;
+    left: calc(110px);
+    top: calc(150px);
+    /* width: calc(100% - 300px); */
+    /* padding: 5px; */
+  }
+
+  .div4 {
+    position: absolute;
+    left: calc(625px);
+    top: calc(240px);
+    width: calc(100%);
+    /* padding: 5px; */
+  }
+
+  .div5 {
+    position: absolute;
+    left: calc(605px);
+    top: calc(240px);
+    width: calc(100%);
+    padding: 5px;
+  }
+
+  .div6 {
+    position: absolute;
+    left: calc(635px);
+    top: calc(350px);
+    /* width: calc(100% - 300px); */
+    padding: 5px;
+  }
+
+  .div7 {
+    position: absolute;
+    left: calc(950px);
+    top: calc(450px);
+    width: calc(100%);
+    padding: 5px;
+  }
+
+  .div8 {
+    position: absolute;
+    left: calc(1100px);
+    top: calc(65%);
+    width: calc(100%);
+    padding: 5px;
+  }
+
+  .div9 {
+    position: absolute;
+    left: calc(1100px);
+    top: calc(130px);
+    /* width: calc(75% - 300px); */
+    padding: 5px;
+  }
+
+  .div10 {
+    position: absolute;
+    left: calc(140px);
+    top: calc(450px);
+    width: calc(100%);
+    padding: 5px;
+  }
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
