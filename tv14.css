@@ -1,4 +1,4 @@
-body {
+body{
     /* background-color: rgb(188, 81, 81); */
     background-color: rgb(45, 65, 86);
     text-align: center;
@@ -16,7 +16,7 @@ body {
     font-family: 'AkkuratLLTrialWeb-Regular';
     color: rgb(191, 235, 126);
     text-align: left;
-    font-size: 50px;
+    font-size: 50vx;
     line-height: 5px;
   }
 
@@ -39,7 +39,7 @@ body {
   a {
     font-family: 'AkkuratLLTrialWeb-Regular';
     color: rgb(191, 235, 126);
-    text-align: left;
+    text-align: center;
     font-size: 30px;
     /* font-style:italic; */
     text-decoration: none;
@@ -135,7 +135,7 @@ body {
     position: absolute;
     left: calc(150px);
     top: calc(140px);
-    /* width: calc(100% - 300px); */
+    width: calc(100%);
     /* padding: 5px; */
   }
 
@@ -143,7 +143,7 @@ body {
     position: absolute;
     left: calc(140px);
     top: calc(60px);
-    /* width: calc(100% - 300px); */
+    width: calc(100%);
     /* padding: 5px; */
   }
 
