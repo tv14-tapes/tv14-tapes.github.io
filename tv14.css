@@ -17,6 +17,7 @@ body{
     color: rgb(191, 235, 126);
     text-align: left;
     font-size: 50vx;
+    width: auto;
     line-height: 5px;
   }
 
